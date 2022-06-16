@@ -1,0 +1,42 @@
+.ns_steps__list {
+	display: flex;
+
+	&::before {
+		content: '';
+		opacity: 0.1;
+		position: absolute;
+		z-index: 0;
+		display: flex;
+		border: 3px dashed #243239;
+		height: 0px;
+		width: 60%;
+		margin-top: 50px;
+		margin-left: 180px;
+	}
+}
+.ns_step {
+	flex-basis: 25%;
+	text-align: center;
+}
+.ns_step__icon {
+	background: $blue;
+	border-radius: 5px;
+	width: 111px;
+	height: 109px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 15px;
+}
+.ns_steps__section {
+	.ns_title {
+		margin-bottom: 10px;
+	}
+	.ns_subtitle {
+		margin-top: 0;
+	}
+	h2 {
+		max-width: 692px;
+	}
+}
