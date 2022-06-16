@@ -1,7 +1,9 @@
-
+.ns_body {
+	font-family: $roboto;
+}
 .ns_employee_avatar img {
-	max-width: 392px;
-	max-height: 392px;
+	width: 392px;
+	height: 392px;
 	object-fit: cover;
 }
 .ns_about {
