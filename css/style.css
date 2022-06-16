@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+.ns_container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.ns_title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.ns_subtitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.ns_notion {
+  padding: 25px;
+  border: 4px solid #3B4DBF;
+  border-radius: 10px;
+}
+
+.ns_circled {
+  border-radius: 50%;
+}
+
+.ns_about {
+  display: flex;
+  justify-content: space-between;
+}
+.ns_about p {
+  font-size: 18px;
+  line-height: 26px;
+  color: #454444;
+}
+.ns_about ul {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #454444;
+}
+.ns_about ul li {
+  list-style-type: none;
+  font-size: 20px;
+}
+.ns_about ul li:before {
+  content: "•";
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.ns_text__check-bold {
+  font-weight: 700;
+}
+
+.ns_employee__name {
+  font-size: 22px;
+  line-height: 112.69%;
+  color: #454444;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ns_employee__position {
+  line-height: 20px;
+  margin: 0;
+}
+
+.ns_about__text p, .ns_about__text ul {
+  max-width: 661px;
+}
+.ns_about__text .ns_notion, .ns_about__text .ns_notion__text {
+  max-width: 435px;
+}
+
+.ns_employee__info {
+  align-items: center;
+  display: flex;
+  margin-top: 40px;
+}
+.ns_employee__info::before {
+  margin-right: 10px;
+  content: "";
+  display: flex;
+  width: 5px;
+  height: 70px;
+  background: #3B4DBF;
+  border-radius: 10px;
+}

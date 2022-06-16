@@ -1,0 +1,70 @@
+
+
+.ns_about {
+	display: flex;
+	justify-content: space-between;
+	p {
+		font-size: 18px;
+		line-height: 26px;
+		color: $black;
+	}
+	ul {
+		
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 26px;
+		color: $black;
+
+		li {  
+		  list-style-type: none;
+		  font-size: 20px;
+		}
+
+		li:before {
+		  content: '\2022';
+		  font-size: 20px;
+		  margin-right: 10px;
+		}
+	}
+}
+.ns_text__check-bold {
+	font-weight: 700;
+}
+.ns_employee__name {
+	font-size: 22px;
+	line-height: 112.69%;
+	color: $black;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.ns_employee__position {
+	line-height: 20px;
+	margin: 0;
+}
+.ns_about__text {
+	p, ul {
+		max-width: 661px;
+	}
+	.ns_notion, .ns_notion__text {
+		max-width: 435px;
+	}
+
+}
+
+
+.ns_employee__info {
+	align-items:center;
+	display: flex;
+	margin-top: 40px;
+
+	&::before{
+		margin-right: 10px;
+		content: '';
+		display: flex;
+		width: 5px;
+		height: 70px;
+		background: $blue;
+		border-radius: 10px;
+	}
+}
