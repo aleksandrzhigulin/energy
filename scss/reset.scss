@@ -3,3 +3,34 @@
 	margin: 0 auto;
 	max-width: 1200px;
 }
+.ns-container-fluid {
+	width: 100%;
+}
+.ns_body {
+	margin: 0;
+}
+p {
+	color: $black;
+}
+section {
+	margin-bottom: 70px;
+}
+ul {
+		
+		font-family: $roboto;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 26px;
+		color: $black;
+
+		li {  
+		  list-style-type: none;
+		  font-size: 20px;
+		}
+
+		li:before {
+		  content: '\2022';
+		  font-size: 20px;
+		  margin-right: 10px;
+		}
+	}

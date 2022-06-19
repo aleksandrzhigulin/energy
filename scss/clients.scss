@@ -1,0 +1,25 @@
+.ns_clients {
+	&__content {
+		display: flex;
+		font-weight: 400;
+		font-size: 22px;
+		line-height: 26px;
+
+		p {
+			margin-right: 51px;
+			max-width: 346px;
+		}
+	}
+	&__images {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	&__image {
+		display: flex;
+		flex-basis: 20%;
+		margin-right: 20px;
+		margin-bottom: 20px;
+		width: 178px;
+		height: 93px;
+	}
+}

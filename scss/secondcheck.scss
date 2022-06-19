@@ -1,0 +1,24 @@
+.ns_secondcheck {
+	&__content {
+		display: flex;
+	}
+	&__text {
+		display: flex;
+		flex-direction: column;
+		font-size: 20px;
+		color: $black;
+		line-height: 24px;
+		font-weight: 400;
+		padding-left: 18px;
+		p {
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+		ul {
+		margin-top: 0;
+		line-height: 24px;
+		font-size: 20px;
+		}
+	}
+
+}

@@ -15,9 +15,27 @@
 .ns_circled {
 	border-radius: 50%;
 }
-h1, h2 {
+
+h1 {
 		font-size: 40px;
 		line-height: 45px;
 		color: $titleblack;
 		margin-bottom: 55px;
 }
+
+ul {
+	padding-left: 10px;
+}
+.ns_button {
+	width: 239px;
+	height: 61px;
+	border-radius: 5px;
+	font-size: 20px;
+	line-height: 27px;
+	color: white;
+	border:none;
+	&-green {
+		background: #00C867;
+	}
+}
+

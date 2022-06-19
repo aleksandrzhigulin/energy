@@ -1,0 +1,58 @@
+.ns_banner__section {
+
+
+
+
+	.ns_container-fluid {
+		background-image: url('../images/bg.svg');
+		background-repeat: no-repeat;
+		z-index: 1;
+	}
+
+	li {
+		display: flex;
+		font-size: 25px;
+		line-height: 28px;
+	}
+	li::before {
+		margin-top: -5px;
+	}
+}
+
+.ns_banner {
+	display: flex;
+	&__content {
+		color:white;
+		display: flex;
+		flex-direction: column;
+		z-index: 1;
+		h2 {
+			font-size: 32px;
+			margin: 0;
+			margin-top: 10px;
+			margin-bottom: 39px;
+		}
+
+	}
+	&__img {
+		z-index: -1;
+		max-width: 636px;
+		overflow: hidden;
+	}
+	&__header {
+		margin-top: 50px;
+		margin-left: -46px;
+		padding: 11px 15px;
+		background: $blue;
+		max-width: 418px;
+		border-radius: 10px;
+		p {
+			text-align: center;
+			color:white;
+			font-size: 32px;
+			line-height: 36px;
+			margin: 0;
+		}
+	}
+
+}

@@ -14,25 +14,7 @@
 		line-height: 26px;
 		color: $black;
 	}
-	ul {
-		
-		font-family: $roboto;
-		font-weight: 400;
-		font-size: 20px;
-		line-height: 26px;
-		color: $black;
-
-		li {  
-		  list-style-type: none;
-		  font-size: 20px;
-		}
-
-		li:before {
-		  content: '\2022';
-		  font-size: 20px;
-		  margin-right: 10px;
-		}
-	}
+	
 }
 .ns_text__check-bold {
 	font-weight: 700;
@@ -74,3 +56,4 @@
 		border-radius: 10px;
 	}
 }
+

@@ -1,0 +1,24 @@
+.ns_docs {
+	&__content {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__images {
+		display: flex;
+	}
+	&__text {
+		margin-right: 11px;
+		h1 {
+		margin-left: 20px;
+		}
+		max-width: 407px;
+
+		li {
+			line-height: 27px;
+			font-size: 22px;
+			margin-bottom: 10px;
+		}
+
+	}
+
+}

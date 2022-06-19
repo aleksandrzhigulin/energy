@@ -1,0 +1,46 @@
+.ns_effects__section {
+	.ns_container-fluid {
+		background: linear-gradient(90deg, $titleblack 50%, white 50%);
+		padding: 0;
+		margin: 0;
+	}
+
+	
+}
+.ns_advantages {
+
+	padding-top: 47px;
+	display: flex;
+	justify-content: space-between;
+
+	&__list {
+		padding-bottom: 65px;
+
+
+		ul {
+		color: white;
+		font-size: 25px;
+		line-height: 28px;
+		padding-left: 0;
+	}
+	li {
+		max-width: 556px;
+		display: flex;
+		margin-bottom: 24px;
+	}
+	li::before {
+		content: url('../images/checkbox.svg');
+		margin-right: 15px;
+		margin-top: 10px;
+		width: 28px;
+		height: 28px;
+	}
+	}
+	p {
+		max-width: 580px;
+		color: $titleblack;
+		font-size: 20px;
+		font-weight: 400;
+		line-height: 28px;
+	}
+}
