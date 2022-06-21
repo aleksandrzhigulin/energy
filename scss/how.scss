@@ -1,0 +1,33 @@
+.ns_how {
+	
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		
+	}
+
+	&__item {
+		flex-basis: 50%;
+		max-width: 460px;
+		p {
+			font-weight: 400;
+			font-size: 22px;
+			line-height: 29px;
+		}
+		h2 {
+			margin-top: 0;
+			font-size: 25px;
+			line-height: 33px;
+		}
+		h1 {
+			margin-bottom: 50px;
+		}
+
+		margin-right: 120px;
+		margin-bottom: 40px;
+	}
+
+	&__item:nth-child(2n) {
+		margin-right: 0;
+	}
+}

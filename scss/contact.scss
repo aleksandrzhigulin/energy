@@ -1,0 +1,29 @@
+.ns_contact {
+
+	&__section .ns_container {
+		display: flex;
+		justify-content: space-between;
+	}
+
+
+	&__text {
+		display: flex;
+		flex-direction: column;
+		max-width: 563px;
+		p {
+			font-weight: 400;
+			margin-top: 0;
+			font-size: 22px;
+			line-height: 30px;
+		}
+		h1 {
+			margin-bottom: 51px;
+		}
+	}
+
+	&__image img {
+		width: 403px;
+		height: 534px;
+		object-fit: cover;
+	}
+}
