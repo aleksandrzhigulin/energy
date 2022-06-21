@@ -1,0 +1,37 @@
+.ns_contact__info__section .ns_container-fluid {
+	background: rgb(12,92,196);
+	background: linear-gradient(107deg, rgba(12,92,196,1) 50%, rgba(0,130,231,1) 50%); 
+
+	padding-bottom: 40px;
+	padding-top: 30px;
+	p, h2 {
+		color: white;
+	}
+	a {
+		text-decoration: none;
+		color: white;
+	}
+}
+
+.ns_contact__info {
+	&__section {
+		margin-bottom: 0;
+	}
+	&-left {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+	&-right {
+		p {
+			max-width: 500px;
+		}
+		button {
+			display: block;
+			margin: 0 auto;
+			margin-top: 30px;
+		}
+	}
+	display: flex;
+	justify-content: space-between;
+}

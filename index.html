@@ -235,6 +235,57 @@
 		</div>
 	</section>
 
+	<section class="ns_examples__section">
+		<div class="ns_container">
+			<div class="ns_slide__slider">
+				<div thumbsSlider="" class="swiper mySwiper2">
+			      <div class="swiper-wrapper">
+			        <div class="swiper-slide">
+			          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+			        </div>
+			        <div class="swiper-slide">
+			          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+			        </div>
+			        
+			      </div>
+			    </div>	
+				<div class="ns_swiper_control">
+					<div class="ns_swiper__prev"></div>
+					<div class="swiper mySwiper3">
+				      <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+				        </div>
+				        <div class="swiper-slide">
+				          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+				        </div>
+				        
+				      </div>
+				    </div>
+				    <div class="ns_swiper__next"></div>	
+				</div>
+			</div>
+		</div>	
+	</section>
+
 	<section class="ns_effects__section">
 		<div class="ns_container">
 			<h1>Последствия КЗ в реалиях 2022+ года</h1>
@@ -557,6 +608,74 @@
 		</div>
 	</section>
 
+	<footer>
+		<section class="ns_contact__info__section">
+		<div class="ns_container-fluid">
+			<div class="ns_container">
+				<div class="ns_contact__info">
+					<div class="ns_contact__info-left">
+						<p>Свяжитесь с нашим специалистом по телефону</p>
+						<p class="ns_phone"><b><a href="tel:84997555776">8 (499) 755-57-76</a>
+						 или 
+						 <a href="tel:79169438929">+7 (916) 943 89 29</a></b></p>
+					</div>
+					<div class="ns_contact__info-right">
+						<p>Сейчас нерабочее время? Оставьте заявку и мы перезвоним Вам в рабочий день.</p>
+						<button class="ns_button ns_button-green">Оставить заявку</button>
+					</div>
+				</div> 
+			</div>
+		</div>
+		</section>
+
+		<div class="ns_footer__middle">
+			<div class="ns_container-fluid">
+				<div class="ns_container">
+					<div class="ns_footer-up">
+						<div class="ns_footer__logo">
+							<div class="ns_logo__image">
+								<img src="" alt="">
+							</div>
+							<p>ООО "Строй Энергия"<br>Мы профессионально занимаемся техническим обслуживанием и ремонтом
+							трансформаторных подстанций в Москве</p>
+						</div>
+
+						<div class="ns_footer__address">
+							<p>Адрес: г.Москва ул. Осенняя 11<br>Эл.почта: info@ремонттрансформаторов.рф</p>
+						</div>
+
+						<button class="ns_footer__button ns_button">ЗАКАЗАТЬ ЗВОНОК</button>
+					</div>	
+					<div class="ns_footer-down">
+						<div class="ns_footer__links">
+							<ul>
+								<li><a href="">Главная</a></li>
+								<li><a href="">О компании</a></li>
+								<li><a href="">Портфолио</a></li>
+								<li><a href="">Прайс лист</a></li>
+								<li><a href="">Контакты</a></li>
+							</ul>
+						</div>
+
+						<div class="ns_footer__media">
+							<a href=""><img src="" alt="viber"></a>
+							<a href=""><img src="" alt="viber"></a>
+							<a href=""><img src="" alt="viber"></a>
+						</div>
+
+						<p class="ns_phone"><b><a href="tel:84997555776">8 (499) 755-57-76</a>
+							или <a href="tel:79169438929">+7 (916) 943 89 29</a></b></p>
+					</div>	
+				</div>
+			</div>
+		</div>
+
+		<div class="ns_footer__bottom">
+			<p>(C) - "Строй Энергия". Все права защищены. <a href="">Политика обработки персональных данных</a>
+			 <a href="">Договор оферты</a></p>
+		</div>
+	</footer>
+	
 
 <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
@@ -574,6 +693,27 @@
         },
       });
 
+	var swiper3 = new Swiper(".mySwiper3", {
+	        loop: true,
+	        slidesPerView: 3,
+	        freeMode: true,
+	        spaceBetween: 12,
+	        watchSlidesProgress: true,
+	      });
+
+
+      var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        navigation: {
+          nextEl: ".ns_swiper__next",
+          prevEl: ".ns_swiper__prev"
+        },
+        thumbs: {
+          swiper: swiper3
+        }
+      });
+
+      
     </script>
 </body>
 </html>

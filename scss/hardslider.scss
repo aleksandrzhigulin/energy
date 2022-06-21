@@ -1,0 +1,51 @@
+.mySwiper3 {
+	
+	height: 80px;
+	width: 451px;
+	margin-left: 0;
+	.swiper-slide img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		border-radius: 5px;
+	}
+	}
+.mySwiper2 {
+	.swiper-slide, .swiper-slide img {
+		width: 451px;
+		height: 295px;
+		border-radius: 5px;
+	}
+	margin-bottom: 20px;
+}
+.ns_swiper__prev, .ns_swiper__next {
+	background: $blue;
+		width: 46px;
+		height: 78px;
+		
+		color: white;
+		border-radius: 5px;
+		justify-content: center;
+	align-items: center;
+	display: flex;
+	cursor: pointer;
+}
+.ns_swiper__prev {
+	margin-right: 6px;
+}
+.ns_swiper__next {
+	margin-left: 6px;
+}
+.ns_swiper__prev::after {
+	content: url('../images/prevarrow.svg');
+}
+.ns_swiper__next::after {
+	content: url('../images/nextarrow.svg');
+}
+.ns_swiper_control {
+	display: flex;
+	width: 451px;
+}
+.ns_slide__slider {
+	width: 451px;
+}

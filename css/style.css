@@ -522,3 +522,112 @@ ul li:before {
   height: 534px;
   object-fit: cover;
 }
+
+.ns_contact__info__section .ns_container-fluid {
+  background: rgb(12, 92, 196);
+  background: linear-gradient(107deg, rgb(12, 92, 196) 50%, rgb(0, 130, 231) 50%);
+  padding-bottom: 40px;
+  padding-top: 30px;
+}
+.ns_contact__info__section .ns_container-fluid p, .ns_contact__info__section .ns_container-fluid h2 {
+  color: white;
+}
+.ns_contact__info__section .ns_container-fluid a {
+  text-decoration: none;
+  color: white;
+}
+
+.ns_contact__info {
+  display: flex;
+  justify-content: space-between;
+}
+.ns_contact__info__section {
+  margin-bottom: 0;
+}
+.ns_contact__info-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.ns_contact__info-right p {
+  max-width: 500px;
+}
+.ns_contact__info-right button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.ns_footer__middle {
+  background: #243239;
+}
+
+.ns_footer__bottom {
+  background: #000000;
+}
+.ns_footer__bottom p {
+  padding: 0;
+  margin: 0;
+}
+
+.ns_phone {
+  margin-bottom: 0;
+}
+
+.mySwiper3 {
+  height: 80px;
+  width: 451px;
+  margin-left: 0;
+}
+.mySwiper3 .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.mySwiper2 {
+  margin-bottom: 20px;
+}
+.mySwiper2 .swiper-slide, .mySwiper2 .swiper-slide img {
+  width: 451px;
+  height: 295px;
+  border-radius: 5px;
+}
+
+.ns_swiper__prev, .ns_swiper__next {
+  background: #3B4DBF;
+  width: 46px;
+  height: 78px;
+  color: white;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.ns_swiper__prev {
+  margin-right: 6px;
+}
+
+.ns_swiper__next {
+  margin-left: 6px;
+}
+
+.ns_swiper__prev::after {
+  content: url("../images/prevarrow.svg");
+}
+
+.ns_swiper__next::after {
+  content: url("../images/nextarrow.svg");
+}
+
+.ns_swiper_control {
+  display: flex;
+  width: 451px;
+}
+
+.ns_slide__slider {
+  width: 451px;
+}
