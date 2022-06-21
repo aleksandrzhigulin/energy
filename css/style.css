@@ -630,4 +630,29 @@ ul li:before {
 
 .ns_slide__slider {
   width: 451px;
+  margin-right: 50px;
+}
+
+.ns_examples__section .ns_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ns_line-blue {
+  display: flex;
+}
+
+.ns_line-blue::after, .ns_line-blue::before {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  content: "";
+  width: 100%;
+  left: 0;
+  background: #3B4DBF;
+  height: 5px;
+}
+
+.ns_slide {
+  display: flex;
 }
