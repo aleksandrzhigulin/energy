@@ -13,12 +13,38 @@
 .mySwiper2 {
 	.swiper-slide, .swiper-slide img {
 		width: 451px;
-		height: 295px;
+		height: 388px;
+		object-fit: cover;
 		border-radius: 5px;
 	}
 	margin-bottom: 20px;
+
+
 }
-.ns_swiper__prev, .ns_swiper__next {
+
+.ns_slide__info {
+	h2 {
+		font-size: 30px;
+		line-height: 34px;
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
+	p {
+		font-size: 18px;
+	}
+	h3 {
+		font-weight: 700;
+		font-size: 25px;
+		line-height: 112.69%;
+	}
+}
+
+.ns_location {
+	opacity: 0.5;
+	font-size: 18px;
+	line-height: 20px;		
+}
+.ns_swiper__prev, .ns_swiper__next, .ns_swiper__next2, .ns_swiper__prev2 {
 	background: $blue;
 		width: 46px;
 		height: 78px;
@@ -36,15 +62,37 @@
 .ns_swiper__next {
 	margin-left: 6px;
 }
-.ns_swiper__prev::after {
+.ns_swiper__prev::after,.ns_swiper__prev2::after {
 	content: url('../images/prevarrow.svg');
 }
-.ns_swiper__next::after {
+.ns_swiper__next::after, .ns_swiper__next2::after {
 	content: url('../images/nextarrow.svg');
 }
 .ns_swiper_control {
 	display: flex;
+	justify-content: space-between;
 	width: 451px;
+	&-bottom {
+		width: 100%;
+		align-items: center;
+		max-width: 970px;
+		margin: 0 auto;
+
+		.swiper-pagination-bullet {
+			width: 15px;
+			height: 15px;
+			&-active {
+				background: $blue;
+			}
+		}
+
+	}
+}
+
+.ns_swiper__next2, .ns_swiper__prev2 {
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
 }
 .ns_slide__slider {
 	width: 451px;
@@ -68,8 +116,20 @@
 	left: 0;
 	background: $blue;
 	height: 5px;
+	max-width: 970px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .ns_slide {
 	display: flex;
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.swiper-pagination2 {
+	width: auto!important;
+}
+.mySwiper5 {
+	width: 100%;
 }

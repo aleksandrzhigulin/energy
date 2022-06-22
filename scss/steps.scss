@@ -1,18 +1,23 @@
-.ns_steps__list {
+.ns_steps__list, .ns_steps {
 	display: flex;
-
+	justify-content: space-between;
+}
+.ns_steps {
+	width: 100%;
+}
+.ns_steps__list {
+	flex-direction: column;
 	&::before {
 		content: '';
 		opacity: 0.1;
-		position: absolute;
 		z-index: 0;
 		display: flex;
 		border: 3px dashed #243239;
 		border-top-left-radius: 2px;
 		height: 0px;
-		width: 60%;
-		margin-top: 50px;
-		margin-left: 180px;
+		width: 80%;
+		margin: 0 auto;
+		margin-bottom: -60px;		
 	}
 }
 .ns_step {
@@ -40,5 +45,6 @@
 	}
 	h1 {
 		max-width: 692px;
+		margin-bottom: 115px;
 	}
 }
