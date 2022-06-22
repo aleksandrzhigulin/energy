@@ -58,6 +58,14 @@ ul {
   width: 100%;
 }
 
+img {
+  border-radius: 5px;
+}
+
+button {
+  cursor: pointer;
+}
+
 .ns_body {
   margin: 0;
 }
