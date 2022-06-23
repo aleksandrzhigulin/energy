@@ -45,7 +45,7 @@
 	line-height: 20px;		
 }
 .ns_swiper__prev, .ns_swiper__next, .ns_swiper__next2, .ns_swiper__prev2 {
-	background: $blue;
+	background: transparent;
 		width: 46px;
 		height: 78px;
 		
@@ -56,11 +56,13 @@
 	display: flex;
 	cursor: pointer;
 }
-.ns_swiper__prev {
-	margin-right: 6px;
+
+.ns_swiper__next2, .ns_swiper__prev2 {
+	background: $blue;
 }
-.ns_swiper__next {
-	margin-left: 6px;
+.ns_swiper__prev, .ns_swiper__next  {
+	height: 30px;
+	width: 18px;
 }
 .ns_swiper__prev::after,.ns_swiper__prev2::after {
 	content: url('../images/prevarrow.svg');
@@ -68,6 +70,15 @@
 .ns_swiper__next::after, .ns_swiper__next2::after {
 	content: url('../images/nextarrow.svg');
 }
+
+.ns_swiper__next::after {
+	content: url('../images/bluenextarrow.svg');
+}
+.ns_swiper__prev::after {
+	content: url('../images/blueprevarrow.svg');
+
+}
+
 .ns_swiper_control {
 	display: flex;
 	justify-content: space-between;

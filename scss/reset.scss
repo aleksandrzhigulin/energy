@@ -1,7 +1,22 @@
+$maxWidthContainer: 1200;
+$md1: $maxWidthContainer + 10;
+$md2: 767.98;
+
+
 .ns_container {
 	width: 100%;
 	margin: 0 auto;
-	max-width: 1200px;
+	max-width: $maxWidthContainer + px;
+
+	@media (max-width: ($md1 + px)) {
+		max-width: 768px;
+		padding: 0 30px;
+	}
+
+	@media (max-width: ($md2 + px)) {
+		max-width: 100%;
+		padding: 0 10px;
+	}
 }
 .ns-container-fluid {
 	width: 100%;

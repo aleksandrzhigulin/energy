@@ -1,0 +1,257 @@
+@media screen and (max-width: 1210px) {
+	.ns_prices__image img {
+		width: 100%;
+	}
+	
+
+
+	.ns_advantages {
+		background: $titleblack;
+		align-items: center;
+		flex-direction: column-reverse;
+		p {
+			color: white;
+		}
+	}
+}
+
+
+@media screen and (max-width: 1210px) {
+	.ns_docs__content {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.ns_contact__info__section .ns_container-fluid {
+		background: $blue;
+	}
+
+	.ns_how__item {
+		margin-right: 0;
+		flex-basis: 100%;
+	}
+	.ns_how__list {
+		justify-content: center;
+	}
+	.ns_footer-down__info {
+		flex-direction: column;
+
+		.ns_footer__media {
+			margin-bottom: 20px;
+		}
+	}
+	.ns_clients__images {
+		justify-content: space-between;
+	}
+	.ns_clients__image {
+		margin-right: 0;
+	}
+
+}
+
+
+
+@media screen and (max-width: 1210px) {
+	.ns_services__section {
+		.ns_service {
+			flex-basis: 50%;
+		}
+	}
+
+	.ns_clients__content {
+		flex-direction: column;
+		p {
+			max-width: unset;
+		}
+	}
+
+	.ns_slide {
+		flex-direction: column-reverse;
+
+		&__slider {
+			margin: 0 auto;
+		}
+	}
+
+	.ns_check__item {
+		flex-basis: 100%;
+		justify-content: center;
+	}
+
+	.ns_secondcheck {
+		&__content {
+			flex-direction: column;
+			align-items: center;
+			img, .ns_secondcheck__img {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.ns_offer {
+		padding: 10px;
+	}
+	.ns_employee_avatar img {
+		width: 250px;
+		height: 250px;
+	}
+	.ns_employee__info::before {
+		height: 100px;
+	}
+}
+
+
+@media screen and (max-width: 834px) {
+	.ns_container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	.ns_contact__section .ns_container {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.ns_footer__bottom p {
+		font-size: 10px;
+	}
+	.ns_prices__image {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
+
+@media screen and (max-width: 704px) {
+	.ns_about {
+		flex-direction: column-reverse;
+		align-items: center;
+		&__employee {
+			display: none;
+		}
+	}
+
+	.ns_services__section .ns_service {
+		flex-basis: 100%;
+		justify-content: center;
+	}
+	.ns_docs__images {
+		flex-direction: column;
+		img {
+			width: 353px;
+			height: 484px;
+			object-fit: cover;
+			margin-bottom: 20px;
+		}
+	}
+
+	.ns_contact__info {
+		flex-direction: column;
+		align-items: center;
+		p {
+			text-align: center;
+		}
+	}
+
+
+	.ns_steps {
+		flex-direction: column;
+
+	}
+	.ns_steps__list::before {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 620px) {
+	.ns_offer__text {
+		flex-direction: column;
+		button {
+			margin-top: 20px;
+			width: 100%;
+		}
+	}
+	.ns_subtitle, .ns_offer p {
+		max-width: 100%;
+		margin: 0;
+	}
+	.ns_footer-up {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 530px) {
+	.ns_step {
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		margin-bottom: 30px!important;
+	}
+	section {
+		margin-bottom: 30px!important;
+	}
+	.ns_contact__info__section {
+		margin-bottom: 0px!important;
+	}
+	.ns_clients__images {
+		justify-content: space-around;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.ns_check__item {
+		flex-direction: column;
+		align-items: center;
+	}
+	.ns_footer__links {
+		flex-direction: column;
+	}
+	.ns_footer__links ul li::after {
+		display: none;
+	}
+	.ns_footer__links ul li p {
+		text-align: center;
+	}
+	.ns_footer__links ul {
+		flex-direction: column;
+	}
+
+	.mySwiper2 .swiper-slide, .mySwiper2 .swiper-slide img {
+		width: 300px;
+		height: auto;
+	}
+	.ns_swiper_control {
+		width: 300px;
+	}
+	.ns_slide__slider {
+		width: 300px;
+	}
+}
+
+@media screen and (max-width: 406px) {
+	.ns_contact__image img {
+		width: 100%;
+		height: auto;
+		object-fit: cover;
+	}
+	h1 {
+		font-size: 28px;
+	}
+}
+
+@media screen and (max-width: 356px) {
+	.ns_docs__images img {
+		width: 80%;
+		height: auto;
+	}
+	.ns_services__section .ns_service p {
+		max-width: 180px;
+	}
+}
