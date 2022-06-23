@@ -16,9 +16,6 @@
 	}
 	
 }
-.ns_text__check-bold {
-	font-weight: 700;
-}
 .ns_employee__name {
 	font-size: 22px;
 	line-height: 112.69%;
@@ -30,11 +27,20 @@
 	line-height: 20px;
 	margin: 0;
 }
+.ns_employee__data {
+	p {
+		margin-bottom: 0;
+	}
+	p:last-child {
+		margin-top: 0;
+		margin-bottom: 18px;
+	}
+}
 .ns_about__text {
 	p, ul {
 		max-width: 661px;
 	}
-	.ns_notion, .ns_notion__text {
+	.ns_notion, .ns_notion p{
 		max-width: 435px;
 	}
 

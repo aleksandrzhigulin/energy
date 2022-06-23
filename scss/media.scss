@@ -60,11 +60,11 @@
 
 	.ns_clients__content {
 		flex-direction: column;
-		p {
-			max-width: unset;
-		}
 	}
 
+	.ns_clients__text {
+		max-width: unset;
+	}
 	.ns_slide {
 		flex-direction: column-reverse;
 
@@ -105,12 +105,8 @@
 
 
 @media screen and (max-width: 834px) {
-	.ns_container {
-		padding-right: 0px;
-		padding-left: 0px;
-	}
-
-	.ns_contact__section .ns_container {
+	
+	.ns_contact__section {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -187,7 +183,7 @@
 }
 
 @media screen and (max-width: 530px) {
-	.ns_step {
+	.ns_steps__step {
 		margin-bottom: 20px;
 	}
 
@@ -253,5 +249,11 @@
 	}
 	.ns_services__section .ns_service p {
 		max-width: 180px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.ns_notion h2 {
+		font-size: 20px;
 	}
 }

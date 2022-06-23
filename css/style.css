@@ -57,6 +57,7 @@ ul {
   .ns_container {
     max-width: 768px;
     padding: 0 30px;
+    width: calc(100% - 60px);
   }
 }
 @media (max-width: 767.98px) {
@@ -127,10 +128,6 @@ ul li:before {
   color: #454444;
 }
 
-.ns_text__check-bold {
-  font-weight: 700;
-}
-
 .ns_employee__name {
   font-size: 22px;
   line-height: 112.69%;
@@ -144,10 +141,18 @@ ul li:before {
   margin: 0;
 }
 
+.ns_employee__data p {
+  margin-bottom: 0;
+}
+.ns_employee__data p:last-child {
+  margin-top: 0;
+  margin-bottom: 18px;
+}
+
 .ns_about__text p, .ns_about__text ul {
   max-width: 661px;
 }
-.ns_about__text .ns_notion, .ns_about__text .ns_notion__text {
+.ns_about__text .ns_notion, .ns_about__text .ns_notion p {
   max-width: 435px;
 }
 
@@ -232,7 +237,7 @@ ul li:before {
   margin-bottom: -60px;
 }
 
-.ns_step {
+.ns_steps__step {
   flex-basis: 25%;
   text-align: center;
   z-index: 1;
@@ -250,7 +255,7 @@ ul li:before {
   margin-bottom: 15px;
 }
 
-.ns_steps__section .ns_title {
+.ns_steps__section b {
   margin-bottom: 10px;
 }
 .ns_steps__section .ns_subtitle {
@@ -323,14 +328,12 @@ ul li:before {
   display: flex;
   justify-content: space-between;
 }
-.ns_advantages__list {
-  padding-bottom: 65px;
-}
 .ns_advantages__list ul {
   color: white;
   font-size: 25px;
   line-height: 28px;
   padding-left: 0;
+  padding-bottom: 55px;
 }
 .ns_advantages__list li {
   max-width: 556px;
@@ -350,6 +353,10 @@ ul li:before {
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
+  padding-bottom: 30px;
+}
+.ns_advantages p:last-child {
+  padding-bottom: 0;
 }
 
 .ns_banner__section {
@@ -489,7 +496,7 @@ ul li:before {
   font-size: 22px;
   line-height: 26px;
 }
-.ns_clients__content p {
+.ns_clients__text, .ns_clients p {
   margin-right: 51px;
   max-width: 346px;
 }
@@ -557,7 +564,7 @@ ul li:before {
   margin-right: 0;
 }
 
-.ns_contact__section .ns_container {
+.ns_contact__section {
   display: flex;
   justify-content: space-between;
 }
@@ -915,7 +922,8 @@ footer .ns_container-fluid {
   .ns_clients__content {
     flex-direction: column;
   }
-  .ns_clients__content p {
+
+  .ns_clients__text {
     max-width: unset;
   }
 
@@ -955,12 +963,7 @@ footer .ns_container-fluid {
   }
 }
 @media screen and (max-width: 834px) {
-  .ns_container {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .ns_contact__section .ns_container {
+  .ns_contact__section {
     flex-direction: column;
     align-items: center;
   }
@@ -1034,7 +1037,7 @@ footer .ns_container-fluid {
   }
 }
 @media screen and (max-width: 530px) {
-  .ns_step {
+  .ns_steps__step {
     margin-bottom: 20px;
   }
 
@@ -1108,5 +1111,10 @@ footer .ns_container-fluid {
 
   .ns_services__section .ns_service p {
     max-width: 180px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .ns_notion h2 {
+    font-size: 20px;
   }
 }

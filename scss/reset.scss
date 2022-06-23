@@ -11,6 +11,7 @@ $md2: 767.98;
 	@media (max-width: ($md1 + px)) {
 		max-width: 768px;
 		padding: 0 30px;
+		width: calc(100% - 60px);
 	}
 
 	@media (max-width: ($md2 + px)) {

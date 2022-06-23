@@ -34,75 +34,81 @@
 								<li>Скидка 15% на дальнейшие услуги</li>
 							</ul>
 						</div>
-					
-					
-
 					</div>
+
 					<div class="ns_banner__img">
 						<img src="images/banner_img.png" alt="Счетчик">
 				    </div>
-				</div>
+				</div> <!-- banner -->
 			</div>
 		</div>
 	</section>
 
-	<div class="ns_container">
-		<div class="ns_about">
-			<div class="ns_about__employee">
-				<div class="ns_employee_avatar">
-					<img src="images/employee.jpg" alt="Employee" class="ns_circled">
-				</div>
-
-				<div class="ns_employee__info">
-					<div class="ns_employee__data">
-						<p class="ns_employee__name ns_title">Романов Александр Николаевич</p>
-						<p class="ns_employee__position ns_subtitle">Главный инженер компании “Строй Энергия”</p>
-					</div>
-					
-				</div>
-			</div>
-
-
-			<div class="ns_about__text">
-				<p class="ns_text__check">
-					<b>Регламентную проверку релейной защиты<br>
-					электроустановок приводят,</b>
-					чтобы оценить защитные функции
-					против короткого замыкания (К3). Неисправность автоматов и
-					релейной защиты может привести к выходу оборудования из
-					строя, пожару и даже взрыву.
-				</p>
-
-				<div class="ns_notion">
-					<p class="ns_notion__text">Работаем с микропроцессорными - sepam,
-					seprotec, сириус, орион, бмзы, siemens,
-					электромеханическими и статическими реле!
-					Подбираем в ЗИП отчественные аналоги.</p>
-				</div>
-
-				<p class="ns_about__list__text">При проверке релейнойзащиты и автоматики эксплуатационным испытаниями и измерениями электрооборудования подвергаются:</p>
-				<ul class="ns_about__list">
-					<li>Распределительные подстанции;</li>
-					<li>Трансформаторные подстанции;</li>
-					<li>Электроустановки и электрооборудование;</li>
-					<li>Высоковольтные кабельные линии;</li>
-					<li>Автоматы</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-
-
-	<section class="ns_services__section">
+	<section class="ns_about__section">
 		<div class="ns_container">
+			<div class="ns_about">
+				<div class="ns_about__employee">
+					<div class="ns_employee_avatar">
+						<img src="images/employee.jpg" alt="Employee" class="ns_circled">
+					</div>
+
+					<div class="ns_employee__info">
+						<div class="ns_employee__data">
+							<p><b>Романов Александр Николаевич</b></p>
+							<p>Главный инженер компании “Строй Энергия”</p>
+						</div>
+						<!-- Обёртка потому что тут линия через ::before--> 
+					</div>
+				</div> <!-- ns_about__employee -->
+
+
+				<div class="ns_about__text">
+					<p>
+						<b>Регламентную проверку релейной защиты<br>
+						электроустановок приводят,</b>
+						чтобы оценить защитные функции
+						против короткого замыкания (К3). Неисправность автоматов и
+						релейной защиты может привести к выходу оборудования из
+						строя, пожару и даже взрыву.
+					</p>
+
+					<div class="ns_notion">
+						<p>Работаем с микропроцессорными - sepam,
+						seprotec, сириус, орион, бмзы, siemens,
+						электромеханическими и статическими реле!
+						Подбираем в ЗИП отчественные аналоги.</p>
+					</div>
+
+					<div class="ns_about__descr">
+						<p>При проверке релейнойзащиты и автоматики эксплуатационным испытаниями и измерениями электрооборудования подвергаются:</p>
+						<ul>
+							<li>Распределительные подстанции;</li>
+							<li>Трансформаторные подстанции;</li>
+							<li>Электроустановки и электрооборудование;</li>
+							<li>Высоковольтные кабельные линии;</li>
+							<li>Автоматы</li>
+						</ul>	
+					</div>
+
+
+				</div> <!-- ns_about__text -->
+			</div> <!-- ns_about -->
+		</div>
+	</section>
+	
+
+
+	<section class="ns_services__section ns_container">
+		
 			<h1>Виды работ в рамках обследования РЗиА</h1>
 			
 			<div class="ns_services__list">
+
 				<div class="ns_service">
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Внешний и внутренний осмотр, контроль правильности монтажа и маркировки</p>
+					<p>Внешний и внутренний осмотр, контроль правильности монтажа и маркировки</p>
 				</div> <!-- ns_service -->
 
 
@@ -110,16 +116,7 @@
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Измерение сопротивления изоляции, контактов, параметров работы устройства</p>
-				</div> <!-- ns_service -->
-
-
-
-				<div class="ns_service">
-					<div class="ns_service__img">
-						<img src="images/Vector.svg" alt="Service">
-					</div>
-					<p class="subtitle">Контроль синхронности показаний даты и времени микропроцессорного контроллера (настройка)</p>
+					<p>Измерение сопротивления изоляции, контактов, параметров работы устройства</p>
 				</div> <!-- ns_service -->
 
 
@@ -128,7 +125,16 @@
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Считывание из памяти терминала РЗА файлов параметрирования и конфигурирования</p>
+					<p>Контроль синхронности показаний даты и времени микропроцессорного контроллера (настройка)</p>
+				</div> <!-- ns_service -->
+
+
+
+				<div class="ns_service">
+					<div class="ns_service__img">
+						<img src="images/Vector.svg" alt="Service">
+					</div>
+					<p>Считывание из памяти терминала РЗА файлов параметрирования и конфигурирования</p>
 				</div> <!-- ns_service -->
 
 
@@ -136,7 +142,7 @@
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Организация связи и получение информации на систему АСКУЭ</p>
+					<p>Организация связи и получение информации на систему АСКУЭ</p>
 				</div> <!-- ns_service -->
 
 
@@ -144,36 +150,28 @@
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Тестирование взаимодействия проверяемого устройства РЗА с другими устройствами РЗА и коммутационными аппаратами</p>
+					<p>Тестирование взаимодействия проверяемого устройства РЗА с другими устройствами РЗА и коммутационными аппаратами</p>
 				</div> <!-- ns_service -->
 
 				<div class="ns_service">
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Оценка правильности сборки токовых цепей и цепей напряжения вторичным током и напряжением</p>
+					<p>Оценка правильности сборки токовых цепей и цепей напряжения вторичным током и напряжением</p>
 				</div> <!-- ns_service -->
 
 				<div class="ns_service">
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Тест устройств РЗА, вводов, изоляции первичным током и напряжением (проводятся после подачи первичного напряжения)</p>
+					<p>Тест устройств РЗА, вводов, изоляции первичным током и напряжением (проводятся после подачи первичного напряжения)</p>
 				</div> <!-- ns_service -->
 
 				<div class="ns_service">
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Проверка предохранителей, хода подвижных частей, характеристик механизмов и минимального напряжения (давления) </p>
-				</div> <!-- ns_service -->
-
-
-				<div class="ns_service">
-					<div class="ns_service__img">
-						<img src="images/Vector.svg" alt="Service">
-					</div>
-					<p class="subtitle">Наладка защиты – МТЗ, АПВ, АВР, замыкания на землю, токовая отсечка, защита от перегрузок, токовая защита, тепловая защита трансформатора</p>
+					<p>Проверка предохранителей, хода подвижных частей, характеристик механизмов и минимального напряжения (давления) </p>
 				</div> <!-- ns_service -->
 
 
@@ -181,7 +179,15 @@
 					<div class="ns_service__img">
 						<img src="images/Vector.svg" alt="Service">
 					</div>
-					<p class="subtitle">Проверка схемы соединений устройства РЗА, изоляции вторичных цепей,   электрических и временных характеристик элементов, приводов, схем управления, сигнализации</p>
+					<p>Наладка защиты – МТЗ, АПВ, АВР, замыкания на землю, токовая отсечка, защита от перегрузок, токовая защита, тепловая защита трансформатора</p>
+				</div> <!-- ns_service -->
+
+
+				<div class="ns_service">
+					<div class="ns_service__img">
+						<img src="images/Vector.svg" alt="Service">
+					</div>
+					<p>Проверка схемы соединений устройства РЗА, изоляции вторичных цепей,   электрических и временных характеристик элементов, приводов, схем управления, сигнализации</p>
 				</div> <!-- ns_service -->
 
 
@@ -189,192 +195,188 @@
 					<div class="ns_notion">
 						<p><b>Формирование многостраничного отчета по реальному состоянию РЗиА.</b></p>
 					</div>
-				</div>
-			</div>
+				</div> <!-- ns_service -->
 
-
-		</div> <!-- container -->
+			</div> <!-- ns_services__list -->
 	</section>
 
-	<section class="ns_steps__section">
-		<div class="ns_container">
-			<h1>Периодичность проверки и наладки РД 153-34.3-35.613-00</h1>
-			<div class="ns_steps__list">
-				<div class="ns_steps">
-					<div class="ns_step">
-				<div class="ns_step__icon">
-					<img src="images/step.svg" alt="Clock">
-				</div>
-				<p class="ns_title">При запуске объекта.</p>
-				<p class="ns_subtitle">Пусконаладочные работы</p>
-			</div>
 
-			<div class="ns_step">
-				<div class="ns_step__icon">
-					<img src="images/step.svg" alt="Clock">
-				</div>
-				<p class="ns_title">При запуске объекта.</p>
-				<p class="ns_subtitle">Пусконаладочные работы</p>
-			</div>
 
-			<div class="ns_step">
-				<div class="ns_step__icon">
-					<img src="images/step.svg" alt="Clock">
-				</div>
-				<p class="ns_title">При запуске объекта.</p>
-				<p class="ns_subtitle">Пусконаладочные работы</p>
-			</div>
+	<section class="ns_steps__section ns_container">
+		<h1>Периодичность проверки и наладки РД 153-34.3-35.613-00</h1>
 
-			<div class="ns_step">
-				<div class="ns_step__icon">
-					<img src="images/step.svg" alt="Clock">
-				</div>
-				<p class="ns_title">При запуске объекта.</p>
-				<p class="ns_subtitle">Пусконаладочные работы</p>
-			</div>
-				</div>
-				
-			</div>
-		</div>
+		<div class="ns_steps__list">
+			<div class="ns_steps">
+				<div class="ns_steps__step">
+					<div class="ns_step__icon">
+						<img src="images/step.svg">
+					</div>
+					<p><b>При запуске объекта.</b></p>
+					<p>Пусконаладочные работы</p>
+				</div> <!-- ns_steps__step -->
+
+				<div class="ns_steps__step">
+					<div class="ns_step__icon">
+						<img src="images/step.svg">
+					</div>
+					<p><b>При запуске объекта.</b></p>
+					<p>Пусконаладочные работы</p>
+				</div> <!-- ns_steps__step -->
+
+				<div class="ns_steps__step">
+					<div class="ns_step__icon">
+						<img src="images/step.svg">
+					</div>
+					<p><b>При запуске объекта.</b></p>
+					<p>Пусконаладочные работы</p>
+				</div> <!-- ns_steps__step -->
+
+				<div class="ns_steps__step">
+					<div class="ns_step__icon">
+						<img src="images/step.svg">
+					</div>
+					<p><b>При запуске объекта.</b></p>
+					<p>Пусконаладочные работы</p>
+				</div> <!-- ns_steps__step -->
+			</div> <!-- ns_steps, опять обёртка для ::before -->
+		</div> <!-- ns_steps__list -->
 	</section>
 
-	<section class="ns_examples__section">
-		<div class="ns_container">
-			<h1>Примеры проверок РЗиА</h1>
-		</div>
+	<section class="ns_examples__section ns_container">
+		<h1>Примеры проверок РЗиА</h1>
+
 		<div class="ns_container ns_line-blue">
 			<div class="swiper mySwiper5">
 			    <div class="swiper-wrapper">
 				 <div class="swiper-slide">
-						<div class="ns_slide">
-							<div class="ns_slide__slider">
-							<div thumbsSlider="" class="swiper mySwiper2">
-						      <div class="swiper-wrapper">
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        
-						      </div>
-						    </div>	
-							<div class="ns_swiper_control">
-								<div class="ns_swiper__prev"></div>
-								<div class="swiper-pagination swiper-pagination3"></div>
-							    <div class="ns_swiper__next"></div>	
-							</div>
-						</div>
+				        	<div class="ns_slide">
+								<div class="ns_slide__slider">
+									<div class="swiper mySwiper2">
+								      <div class="swiper-wrapper">
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
 
-						<div class="ns_slide__info">
-							<h2>ППК "Фонд развития территорий", ЖК "Видный город"</h2>
-							<p class="ns_location">г. Видное, объект 01-ВГ-ГП/СЕТ</p>
-							<p>Обследовали <b>трансформаторную подстанцию 2 БКТП 2х1000/10/0,4, </b>выполненную на 14 ячейках типа – КСО-ИЭ 215 с микропроцессорными реле «Сириус-2-Л».<br><br>
-							Обнаружена выведенная защита от замыкания на землю, которая работала только на сигнал.<br><br>
-							<b>Результат:</b></p>
-							<ul>
-								<li>технический отчёт на 67 страницах;</li>
-								<li>введена в работу защита от замыкания на землю;</li>
-								<li>проверена защита на отключение.</li>
-							</ul> 
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									    	<img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+								        
+								      </div> <!-- swiper-wrapper -->
+								    </div> <!-- mySwiper2 -->
+									<div class="ns_swiper_control">
+										<div class="ns_swiper__prev"></div>
+										<div class="swiper-pagination3"></div>
+									    <div class="ns_swiper__next"></div>	
+									</div> <!-- управление слайдера внутри слайдера -->
+								</div> <!-- ns_slide__slider, это слайдер внутри слайдера -->
 
-							<h3>16 дней, 184 000 р., 2020 год</h3>
-						</div>	
-					</div>
-				</div>	<!-- swiper-slide -->
+								<div class="ns_slide__info">
+									<h2>ППК "Фонд развития территорий", ЖК "Видный город"</h2>
+									<p class="ns_location">г. Видное, объект 01-ВГ-ГП/СЕТ</p>
+									<p>Обследовали <b>трансформаторную подстанцию 2 БКТП 2х1000/10/0,4, </b>выполненную на 14 ячейках типа – КСО-ИЭ 215 с микропроцессорными реле «Сириус-2-Л».<br><br>
+									Обнаружена выведенная защита от замыкания на землю, которая работала только на сигнал.<br><br>
+									<b>Результат:</b></p>
 
+									<ul>
+										<li>технический отчёт на 67 страницах;</li>
+										<li>введена в работу защита от замыкания на землю;</li>
+										<li>проверена защита на отключение.</li>
+									</ul> 
 
-
+									<h3>16 дней, 184 000 р., 2020 год</h3>
+								</div> <!-- ns_slide__info -->
+							</div> <!-- ns_slide -->
+				        </div> <!-- SWIPER-SLIDE!!!!! -->
 
 				        <div class="swiper-slide">
-				        	
 				        	<div class="ns_slide">
-							<div class="ns_slide__slider">
-							<div thumbsSlider="" class="swiper mySwiper2">
-						      <div class="swiper-wrapper">
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        <div class="swiper-slide">
-							          <img src="images/remont.jpg" />
-							        </div>
-						        
-						      </div>
-						    </div>	
-							<div class="ns_swiper_control">
-								<div class="ns_swiper__prev"></div>
-								<div class="swiper-pagination3"></div>
-							    <div class="ns_swiper__next"></div>	
-							</div>
-						</div>
+								<div class="ns_slide__slider">
+									<div class="swiper mySwiper2">
+								      <div class="swiper-wrapper">
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
 
-						<div class="ns_slide__info">
-							<h2>ППК "Фонд развития территорий", ЖК "Видный город"</h2>
-							<p class="ns_location">г. Видное, объект 01-ВГ-ГП/СЕТ</p>
-							<p>Обследовали <b>трансформаторную подстанцию 2 БКТП 2х1000/10/0,4, </b>выполненную на 14 ячейках типа – КСО-ИЭ 215 с микропроцессорными реле «Сириус-2-Л».<br><br>
-							Обнаружена выведенная защита от замыкания на землю, которая работала только на сигнал.<br><br>
-							<b>Результат:</b></p>
-							<ul>
-								<li>технический отчёт на 67 страницах;</li>
-								<li>введена в работу защита от замыкания на землю;</li>
-								<li>проверена защита на отключение.</li>
-							</ul> 
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									    	<img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+									    
+								        <div class="swiper-slide">
+									        <img src="images/remont.jpg" />
+									    </div> <!-- swiper-slide -->
+								        
+								      </div> <!-- swiper-wrapper -->
+								    </div> <!-- mySwiper2 -->
+									<div class="ns_swiper_control">
+										<div class="ns_swiper__prev"></div>
+										<div class="swiper-pagination3"></div>
+									    <div class="ns_swiper__next"></div>	
+									</div> <!-- управление слайдера внутри слайдера -->
+								</div> <!-- ns_slide__slider, это слайдер внутри слайдера -->
 
-							<h3>16 дней, 184 000 р., 2020 год</h3>
-						</div>	
-					</div>
+								<div class="ns_slide__info">
+									<h2>ППК "Фонд развития территорий", ЖК "Видный город"</h2>
+									<p class="ns_location">г. Видное, объект 01-ВГ-ГП/СЕТ</p>
+									<p>Обследовали <b>трансформаторную подстанцию 2 БКТП 2х1000/10/0,4, </b>выполненную на 14 ячейках типа – КСО-ИЭ 215 с микропроцессорными реле «Сириус-2-Л».<br><br>
+									Обнаружена выведенная защита от замыкания на землю, которая работала только на сигнал.<br><br>
+									<b>Результат:</b></p>
 
+									<ul>
+										<li>технический отчёт на 67 страницах;</li>
+										<li>введена в работу защита от замыкания на землю;</li>
+										<li>проверена защита на отключение.</li>
+									</ul> 
 
+									<h3>16 дней, 184 000 р., 2020 год</h3>
+								</div> <!-- ns_slide__info -->
+							</div> <!-- ns_slide -->
+				        </div> <!-- SWIPER-SLIDE!!!!! -->
+			    </div> <!-- swiper-wrapper -->
+		    </div> <!-- mySwiper5 -->
+		</div> <!-- ns_line-blue, опять обёртка (для синих линий)-->
 
-
-				        </div>
-			      </div>
-				      
-
-		    </div>
-				
-		</div>
-		<div class="ns_container">
-			<div class="ns_swiper_control ns_swiper_control-bottom">
-				<div class="ns_swiper__prev2"></div>
-				<div class="swiper-pagination2"></div>	
-				<div class="ns_swiper__next2"></div>	
-			</div>
-		</div>
+		<div class="ns_swiper_control ns_swiper_control-bottom">
+			<div class="ns_swiper__prev2"></div>
+			<div class="swiper-pagination2"></div>	
+			<div class="ns_swiper__next2"></div>	
+		</div> <!-- управление -->
+		
 		
 		<div class="ns_offer">
-		<div class="ns_notion">
-			<h2>Запросите коммерческое предложение</h2>
-			<div class="ns_offer__text">
-				<div class="ns_offer__details">
-					<p><b>Если ваша задача — собрать КП</b> и вы можете прислать ТЗ или по телефону рассказать о задаче, то звоните инженеру напрямую <a href="tel:89169438929">8 (916) 943-89-29</a> или оставляйте заявку. Подготовим КП в течение 1 рабочего дня (от 3 часов). </p>
-				</div>
+			<div class="ns_notion">
+				<h2>Запросите коммерческое предложение</h2>
+				<div class="ns_offer__text">
+					<div class="ns_offer__details">
+						<p><b>Если ваша задача — собрать КП</b> и вы можете прислать ТЗ или по телефону рассказать о задаче, то звоните инженеру напрямую <a href="tel:89169438929">8 (916) 943-89-29</a> или оставляйте заявку. Подготовим КП в течение 1 рабочего дня (от 3 часов). </p>
+					</div>
 
-				<div class="ns_offer__feedback">
-					<button class="ns_button ns_button-green"><b>ЗАПРОСИТЬ КП<b></button>
+					<div class="ns_offer__feedback">
+						<button class="ns_button ns_button-green"><b>ЗАПРОСИТЬ КП</b></button>
+					</div>
 				</div>
-			</div>
-			
-		</div>
-	</div>
+				
+			</div> <!-- ns_notion -->
+		</div> <!-- ns_offer -->
 	</section>
 
 	<section class="ns_effects__section">
@@ -383,8 +385,7 @@
 		</div>
 		
 		<div class="ns_container-fluid">
-			<div class="ns_container">
-				<div class="ns_advantages">
+				<div class="ns_advantages ns_container">
 					<div class="ns_advantages__list">
 						<ul>
 							<li>Длительные простои при отсутствии в ЗИП запчастей и комплектующих</li>
@@ -392,97 +393,101 @@
 							<li>Остановка работы при срочном переходе на отечественные аналоги</li>
 							<li>Общая истерия, так как решить задачу быстро не получится</li>
 						</ul>
+					</div> <!-- ns_advantages__list -->
+					
+					<div class="ns_advantages__text">
+						<p>Заблаговременная проверка релейной защиты позволит выявить уязвимости, перераспределить нагрузку на электрические сети, а также сформировать ЗИП и <b>подготовиться к плановому переходу на отечественные комплектующие.</b> </p>
+					
+						<p><b>К нам обращаются</b> главные инженеры, энергетики предприятий, председатели коттеджных поселков, специалисты по закупкам, <b>чтобы провести реальные испытания</b> по действующим ГОСТ, СНиП, СП, правилам пожарной безопасности и другими нормативными документами. </p>
 					</div>
+				</div> <!-- ns_advantages -->
+		</div> <!-- ns_container-fluid -->
 
-					<p>Заблаговременная проверка релейной защиты позволит выявить уязвимости, перераспределить нагрузку на электрические сети, а также сформировать ЗИП и <b>подготовиться к плановому переходу на отечественные комплектующие.</b>
-					<br>
-					<br>
-					<b>К нам обращаются</b> главные инженеры, энергетики предприятий, председатели коттеджных поселков, специалисты по закупкам, <b>чтобы провести реальные испытания</b> по действующим ГОСТ, СНиП, СП, правилам пожарной безопасности и другими нормативными документами. </p>
-				</div>
-			</div>
-		</div>
-		
 	</section>
 
-	<section class="ns_check__section">
-		<div class="ns_container">
-			<h1>Проверка РЗиА от «Строй Энергия»</h1>
+	<section class="ns_check__section ns_container">
+		<h1>Проверка РЗиА от «Строй Энергия»</h1>
 
-			<div class="ns_check__list">
-				<div class="ns_check__item">
-					<div class="ns_check__item__img">
-						<img src="images/check.jpg" alt="Builder">
-					</div>
-					<div class="ns_check__item__text">
-						<h2>Штатные инженеры с оборудованием </h2>
-						<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
-					</div>
-				</div>
+		<div class="ns_check__list">
 
-				<div class="ns_check__item">
-					<div class="ns_check__item__img">
-						<img src="images/check.jpg" alt="Builder">
-					</div>
-					<div class="ns_check__item__text">
-						<h2>Штатные инженеры с оборудованием </h2>
-						<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
-					</div>
-				</div>
+			<div class="ns_check__item">
+				<div class="ns_check__item__img">
+					<img src="images/check.jpg">
+				</div> <!-- ns_check__item__img -->
 
-				<div class="ns_check__item">
-					<div class="ns_check__item__img">
-						<img src="images/check.jpg" alt="Builder">
-					</div>
-					<div class="ns_check__item__text">
-						<h2>Штатные инженеры с оборудованием </h2>
-						<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
-					</div>
-				</div>
+				<div class="ns_check__item__text">
+					<h2>Штатные инженеры с оборудованием </h2>
+					<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
+				</div> <!-- ns_check__item__text -->
+			</div> <!-- ns_check__item -->
 
-				<div class="ns_check__item">
-					<div class="ns_check__item__img">
-						<img src="images/check.jpg" alt="Builder">
-					</div>
-					<div class="ns_check__item__text">
-						<h2>Штатные инженеры с оборудованием </h2>
-						<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
-					</div>
-				</div>
+			<div class="ns_check__item">
+				<div class="ns_check__item__img">
+					<img src="images/check.jpg">
+				</div> <!-- ns_check__item__img -->
+
+				<div class="ns_check__item__text">
+					<h2>Штатные инженеры с оборудованием </h2>
+					<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
+				</div> <!-- ns_check__item__text -->
+			</div> <!-- ns_check__item -->
+
+			<div class="ns_check__item">
+				<div class="ns_check__item__img">
+					<img src="images/check.jpg">
+				</div> <!-- ns_check__item__img -->
+
+				<div class="ns_check__item__text">
+					<h2>Штатные инженеры с оборудованием </h2>
+					<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
+				</div> <!-- ns_check__item__text -->
+			</div> <!-- ns_check__item -->
+
+			<div class="ns_check__item">
+				<div class="ns_check__item__img">
+					<img src="images/check.jpg">
+				</div> <!-- ns_check__item__img -->
+
+				<div class="ns_check__item__text">
+					<h2>Штатные инженеры с оборудованием </h2>
+					<p>Аттестованные инженеры с высшим электротехническим образованием (V группы допуска до 35 кВ), проверенные в РОСТЕСТ приборы, своя передвижная электролаборатория.</p>
+				</div> <!-- ns_check__item__text -->
+			</div> <!-- ns_check__item -->
 				
-			</div>
-		</div>
+		</div> <!-- ns_check__list -->
+
+		<div class="ns_offer">
+			<div class="ns_notion">
+				<h2>Запросите коммерческое предложение</h2>
+				<div class="ns_offer__text">
+					<div class="ns_offer__list ns_about__list">
+						<ul>
+							<li>Оставьте заявку</li>
+							<li>Опишите задачу инженеру по телефону</li>
+							<li>Получите предварительное КП по email</li>
+							<li>Точное КП после изучения ТЗ или выезда на объект</li>
+						</ul>
+					</div> <!-- ns_offer__list -->
+
+					<div class="ns_offer__feedback db">
+						<p>Сообщите о тендере и мы примем в нем участие </p>
+						<button class="ns_button ns_button-green"><b>ЗАПРОСИТЬ КП</b></button>
+					</div> <!-- ns_offer__feedback -->
+
+				</div> <!-- ns_offer__text -->
+			</div> <!-- ns_notion -->
+		</div> <!-- ns_offer -->
 	</section>
-	<div class="ns_offer">
-		<div class="ns_notion">
-			<h2>Запросите коммерческое предложение</h2>
-			<div class="ns_offer__text">
-				<div class="ns_offer__list">
-					<ul class="ns_about__list ns_offer__list">
-						<li>Оставьте заявку</li>
-						<li>Опишите задачу инженеру по телефону</li>
-						<li>Получите предварительное КП по email</li>
-						<li>Точное КП после изучения ТЗ или выезда на объект</li>
-					</ul>
-				</div>
 
-				<div class="ns_offer__feedback db">
-					<p class="ns_subtitle">Сообщите о тендере и мы примем в нем участие </p>
-					<button class="ns_button ns_button-green"><b>ЗАПРОСИТЬ КП<b></button>
-				</div>
-			</div>
-			
-		</div>
-	</div>
+	<section class="ns_secondcheck__section ns_container">
+		<h1>Проверка РЗиА от «Строй Энергия»</h1>
 
-	<section class="ns_secondcheck__section">
-		<div class="ns_container">
-			<h1>Проверка РЗиА от «Строй Энергия»</h1>
+		<div class="ns_secondcheck__content">
+			<div class="ns_secondcheck__img">
+				<img src="images/check.png" alt="Проверка">
+			</div> <!-- ns_secondcheck__img -->
 
-			<div class="ns_secondcheck__content">
-				<div class="ns_secondcheck__img">
-					<img src="images/check.png" alt="Проверка">
-				</div>
-				<div class="ns_secondcheck__text">
+			<div class="ns_secondcheck__text">
 				<p>Свидетельство о регистрации лаборатории (№5776 от 11.06.2021 на 3 года), лицензия до 35 кВ, сертификат ISO 9001, допуски на проведение электроизмерительных работ.<br><br>
                 <b>В распоряжении лаборатории поверенное в РОСТЕСТ оборудование и приборы:</b></p>
                 <ul>
@@ -499,130 +504,127 @@
                 	<li>Термометр - Testo 905-T1</li>
                 	<li>Термометр - Testo 905-T1</li>
                 </ul>
-				</div>
-			</div>
-		</div>
+			</div> <!-- ns_secondcheck__text -->
+
+		</div> <!-- ns_secondcheck__content -->
 	</section>
 
-	<section class="ns_docs__section">
-		<div class="ns_container">
-			<div class="ns_docs__content">
-				<div class="ns_docs__text">
-					<h1>Разрешительная документация</h1>
-					<ul>
-						<li>Свидетельство о регистрации электролаборатории до 35 кВ №5776 от 11.06.2021 на 3 года</li>
-						<li>Система менеджмента качества ГОСТ ISO 9001</li>
-					</ul>
-				</div>
-				<div class="ns_docs__images">
-					<img src="images/license.png" alt="license">
-					<img src="images/license.png" alt="license">
-				</div>
-			</div>
-		</div>
+	<section class="ns_docs__section ns_container">
+		<div class="ns_docs__content">
+			<div class="ns_docs__text">
+				<h1>Разрешительная документация</h1>
+				<ul>
+					<li>Свидетельство о регистрации электролаборатории до 35 кВ №5776 от 11.06.2021 на 3 года</li>
+					<li>Система менеджмента качества ГОСТ ISO 9001</li>
+				</ul>
+			</div> <!-- ns_docs__text -->
+
+			<div class="ns_docs__images">
+				<img src="images/license.png">
+				<img src="images/license.png">
+			</div> <!-- ns_docs__images -->
+		</div> <!-- ns_docs__content -->
 	</section>
 
 
-	<section class="ns_clients__section">
-		<div class="ns_container">
-			<h1>Клиенты компании</h1>
+	<section class="ns_clients__section ns_container">
+		<h1>Клиенты компании</h1>
 
-			<div class="ns_clients__content">
-				<p><b>Выполнили 11+ государственных контрактов</b><br><br>
-«Финансово-хозяйственное управление мэрии Москвы», санаторий «Ватутинки» МВД РФ, центр социально-медицинской реабилитации инвалидов и ветеранов боевых действий «Ясенки», МГУ имени М.В.ЛОМОНОСОВА и на других государственных объектах. </p>
+		<div class="ns_clients__content">
+			<div class="ns_clients__text">
+				<p><b>Выполнили 11+ государственных контрактов</b></p>
 
+				<p>«Финансово-хозяйственное управление мэрии Москвы», санаторий «Ватутинки» МВД РФ, центр социально-медицинской реабилитации инвалидов и ветеранов боевых действий «Ясенки», МГУ имени М.В.ЛОМОНОСОВА и на других государственных объектах.</p>
+			</div> <!-- ns_clients__text -->
+			
+            <div class="ns_clients__images">
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                <div class="ns_clients__images">
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
+                <div class="ns_clients__image">
+                	<img src="images/client.jpg">
+                </div> <!-- ns_clients__image -->
 
-                	<div class="ns_clients__image">
-                		<img src="images/client.jpg" alt="">
-                	</div>
-
-                </div>
-
-			</div>
-		</div>
+            </div> <!-- ns_clients__images -->
+		</div> <!-- ns_clients__content -->
 	</section>
 
-	<section class="ns_recomendations__section">
-		<div class="ns_container">
-			<h1>Рекомендации клиентов</h1>
+	<section class="ns_recomendations__section ns_container">
+		<h1>Рекомендации клиентов</h1>
 
-			<div class="ns_slides">
-					<div class="swiper mySwiper">
-				      <div class="swiper-wrapper">
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+		<div class="ns_slides">
+			<div class="swiper mySwiper">
+				<div class="swiper-wrapper">
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 				        
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 
-				        <div class="swiper-slide">
-				        	<img src="images/rec.jpg" alt="Rec">
-				        </div>
+				    <div class="swiper-slide">
+				        <img src="images/rec.jpg">
+				    </div> <!-- swiper-slide -->
 
-				      </div>
-				      <div class="swiper-pagination"></div>
-				    </div>		
-			</div>
-		</div>	
+				</div> <!-- swiper-wrapper -->
+
+				<div class="swiper-pagination"></div>
+			</div> <!-- mySwiper -->	
+		</div> <!-- ns_slides -->
 	</section>		
 
 	<section class="ns_effects__section ns_prices__section	">
@@ -631,92 +633,89 @@
 		</div>
 		
 		<div class="ns_container-fluid">
-			<div class="ns_container">
-				<div class="ns_advantages">
-					<div class="ns_advantages__list">
-						<h2>Бесплатно</h2>
-						<ul>
-							<li>Длительные простои при отсутствии в ЗИП запчастей и комплектующих</li>
-							<li>Финансовые потери из-за простоев и подорожания импортного оборудования</li>
-							<li>Остановка работы при срочном переходе на отечественные аналоги</li>
-							<li>Общая истерия, так как решить задачу быстро не получится</li>
-						</ul>
-					</div>
+			<div class="ns_advantages ns_container">
+				<div class="ns_advantages__list">
+					<h2>Бесплатно</h2>
+					<ul>
+						<li>Длительные простои при отсутствии в ЗИП запчастей и комплектующих</li>
+						<li>Финансовые потери из-за простоев и подорожания импортного оборудования</li>
+						<li>Остановка работы при срочном переходе на отечественные аналоги</li>
+						<li>Общая истерия, так как решить задачу быстро не получится</li>
+					</ul>
+				</div> <!-- ns_advantages__list -->
 
+				<div class="ns_advantages__text">
 					<p><b>Точная стоимость и сроки проверки релейной защиты и автоматики (РЗиА)</b> зависит от количества электрооборудования и глубины проверки. Предоставьте нам полную информацию об оборудовании, чтобы мы могли рассчитать точную стоимость. Таблица с ценами служит примерным ориентиром! 
-Помните, что возможные потери при выходе из строя электрооборудования превышают стоимость диагностики в десятки раз. 
-Примерную стоимость работ скажем на этапе консультации, точную — после согласования технического задания и конкретных работ. </p>
-				</div>
-			</div>
+					Помните, что возможные потери при выходе из строя электрооборудования превышают стоимость диагностики в десятки раз. 
+					Примерную стоимость работ скажем на этапе консультации, точную — после согласования технического задания и конкретных работ. </p>
+				</div> <!-- ns_advantages__text -->
 
-			
-		</div>
+			</div> <!-- ns_advantages -->
+		</div> <!-- ns_container-fluid -->
 		
-		<div class="ns_container">
-			<div class="ns_prices__image">
-				<img src="images/prices.png" alt="">
-			</div>
+		<div class="ns_prices__image ns_container">
+			<img src="images/prices.png">
 		</div>
 	</section>
 
-	<section class="ns_how__section">
-		<div class="ns_container">
-			<h1>Как работаем</h1>
+	<section class="ns_how__section ns_container">
+		<h1>Как работаем</h1>
 
-			<div class="ns_how__list">
-				<div class="ns_how__item">
-					<h2>Консультация и коммерческое предложение</h2>
-					<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
-				</div>
+		<div class="ns_how__list">
+			<div class="ns_how__item">
+				<h2>Консультация и коммерческое предложение</h2>
+				<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
+			</div> <!-- ns_how__item -->
 
-				<div class="ns_how__item">
-					<h2>Консультация и коммерческое предложение</h2>
-					<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
-				</div>
+			<div class="ns_how__item">
+				<h2>Консультация и коммерческое предложение</h2>
+				<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
+			</div> <!-- ns_how__item -->
 
-				<div class="ns_how__item">
-					<h2>Консультация и коммерческое предложение</h2>
-					<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
-				</div>
+			<div class="ns_how__item">
+				<h2>Консультация и коммерческое предложение</h2>
+				<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
+			</div> <!-- ns_how__item -->
 
-				<div class="ns_how__item">
-					<h2>Консультация и коммерческое предложение</h2>
-					<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
-				</div>
-			</div>
-		</div>
+			<div class="ns_how__item">
+				<h2>Консультация и коммерческое предложение</h2>
+				<p>Сообщите тип и количество реле, БПНС, конденсаторов и трансформаторов тока, которые необходимо проверить. Чем точнее информация, тем конкретнее предварительно коммерческое предложение. В идеале отправьте нам техническое задание на работы.</p>
+			</div> <!-- ns_how__item -->
+
+		</div> <!-- ns_how__list -->
 	</section>
 
-	<section class="ns_contact__section">
-		<div class="ns_container">
-			<div class="ns_contact__text">
-				<h1>Давайте обсудим задачу</h1>
-				<p>Проведем реальные измерения электроавтоматики в Москве и МО, найдем все уязвимости релейной защиты, предложим недорогие и эффективные способы восстановления, модернизации или замены. Гарантируем обнаружение и устранение 100% проблем. <br><br> В компании «Строй Энергия» работают опытные специалисты, которые дают конкретные гарантии на свою работу.Такие гарантии требуют от нас высокого профессионализма, поэтому мы серьёзно подходим к электроизмерениям и испытанию электроустановок. Делаем фактическую работу, а не просто выписываем протоколы.</p>
-			</div>
-			<div class="ns_contact__image">
-				<img src="images/chel.png" alt="">
-			</div>
-		</div>
+	<section class="ns_contact__section ns_container">
+		<div class="ns_contact__text">
+			<h1>Давайте обсудим задачу</h1>
+
+			<p>Проведем реальные измерения электроавтоматики в Москве и МО, найдем все уязвимости релейной защиты, предложим недорогие и эффективные способы восстановления, модернизации или замены. Гарантируем обнаружение и устранение 100% проблем. </p>
+
+			<p>В компании «Строй Энергия» работают опытные специалисты, которые дают конкретные гарантии на свою работу.Такие гарантии требуют от нас высокого профессионализма, поэтому мы серьёзно подходим к электроизмерениям и испытанию электроустановок. Делаем фактическую работу, а не просто выписываем протоколы.</p>
+		</div> <!-- ns_contact__text -->
+
+		<div class="ns_contact__image">
+			<img src="images/chel.png">
+		</div> <!-- ns_contact__image -->
 	</section>
 
 	<footer>
 		<section class="ns_contact__info__section">
 		<div class="ns_container-fluid">
-			<div class="ns_container">
-				<div class="ns_contact__info">
-					<div class="ns_contact__info-left">
-						<p>Свяжитесь с нашим специалистом по телефону</p>
-						<p class="ns_phone"><b><a href="tel:84997555776">8 (499) 755-57-76</a>
+			<div class="ns_contact__info ns_container">
+				<div class="ns_contact__info-left">
+					<p>Свяжитесь с нашим специалистом по телефону</p>
+					<p class="ns_phone"><b><a href="tel:84997555776">8 (499) 755-57-76</a>
 						 или 
-						 <a href="tel:79169438929">+7 (916) 943 89 29</a></b></p>
-					</div>
-					<div class="ns_contact__info-right">
-						<p>Сейчас нерабочее время? Оставьте заявку и мы перезвоним Вам в рабочий день.</p>
-						<button class="ns_button ns_button-green">Оставить заявку</button>
-					</div>
-				</div> 
-			</div>
-		</div>
+					<a href="tel:79169438929">+7 (916) 943 89 29</a></b></p>
+				</div> <!-- ns_contact__info-left -->
+
+				<div class="ns_contact__info-right">
+					<p>Сейчас нерабочее время? Оставьте заявку и мы перезвоним Вам в рабочий день.</p>
+					<button class="ns_button ns_button-green">Оставить заявку</button>
+				</div> <!-- ns_contact__info-right -->
+			</div> <!-- ns_contact__info -->
+		</div> <!-- ns_container-fluid -->
 		</section>
 
 		<div class="ns_footer__middle">
@@ -729,46 +728,48 @@
 							</div>
 							<p>ООО "Строй Энергия"<br>Мы профессионально занимаемся техническим обслуживанием и ремонтом
 							трансформаторных подстанций в Москве</p>
-						</div>
+						</div> <!-- ns_footer__logo -->
 
 						<div class="ns_footer__address">
-							<p>Адрес: г.Москва ул. Осенняя 11<br>Эл.почта: info@ремонттрансформаторов.рф</p>
-						</div>
+							<p>Адрес: г.Москва ул. Осенняя 11<br>Эл.почта: <a href="mailto:info@ремонттрансформаторов.рф">info@ремонттрансформаторов.рф</a></p>
+						</div> <!-- ns_footer__address -->
 
 						<button class="ns_footer__button ns_button">ЗАКАЗАТЬ ЗВОНОК</button>
-					</div>	
+					</div> <!-- ns_footer-up -->	
+
 					<div class="ns_footer-down">
 						<div class="ns_footer-down__info">
 							<div class="ns_footer__links">
-							<ul>
-								<li><a href="">Главная</a></li>
-								<li><a href="">О компании</a></li>
-								<li><a href="">Портфолио</a></li>
-								<li><a href="">Прайс лист</a></li>
-								<li><a href="">Контакты</a></li>
-							</ul>
-						</div>
+								<ul>
+									<li><a href="">Главная</a></li>
+									<li><a href="">О компании</a></li>
+									<li><a href="">Портфолио</a></li>
+									<li><a href="">Прайс лист</a></li>
+									<li><a href="">Контакты</a></li>
+								</ul>
+							</div> <!-- ns_footer__links -->
 
 						<div class="ns_footer__media">
-							<a href=""><img src="" alt="viber"></a>
-							<a href=""><img src="" alt="viber"></a>
-							<a href=""><img src="" alt="viber"></a>
-						</div>
+							<a href="#"><img src=""></a>
+							<a href="#"><img src=""></a>
+							<a href="#"><img src=""></a>
+						</div> <!-- ns_footer__media -->
 
 						<p class="ns_phone"><b><a href="tel:84997555776">8 (499) 755-57-76</a>
 							или <a href="tel:79169438929">+7 (916) 943 89 29</a></b></p>
-						</div>
-					</div>	
-				</div>
-			</div>
-		</div>
+
+						</div> <!-- ns_footer-down__info -->
+					</div> <!-- ns_footer-down -->
+				</div> <!-- ns_container -->
+			</div> <!-- ns_container-fluid -->
+		</div> <!-- ns_footer__middle -->
 
 		<div class="ns_footer__bottom">
 			<div class="ns_container">
 				<p>(C) - "Строй Энергия". Все права защищены. <a href="">Политика обработки персональных данных</a>
 			 <a href="">Договор оферты</a></p>
-			</div>
-		</div>
+			</div> <!-- ns_container -->
+		</div> <!-- ns_footer__bottom -->
 	</footer>
 	
 

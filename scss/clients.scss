@@ -4,12 +4,13 @@
 		font-weight: 400;
 		font-size: 22px;
 		line-height: 26px;
+	}
 
-		p {
+	&__text, p {
 			margin-right: 51px;
 			max-width: 346px;
-		}
 	}
+	
 	&__images {
 		display: flex;
 		flex-wrap: wrap;
